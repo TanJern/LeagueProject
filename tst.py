@@ -12,7 +12,6 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 
-
 lol_watcher = LolWatcher('RGAPI-7d0f488f-180c-4263-a728-6d22329ba4e3')
 my_region = 'na1'
 
@@ -25,7 +24,6 @@ my_region = 'na1'
 # First we get the latest version of the game from data dragon
 versions = lol_watcher.data_dragon.versions_for_region(my_region)
 champions_version = versions['n']['champion']
-
 
 
 #GET CHALLENGER PLAYERS
@@ -49,12 +47,6 @@ for summonerName in summoner_names:
         
 
 
-
-
-
-
-
-
 #Find champions in each match
 champions_list=[]
 for matchID in  all_matchlist:
@@ -64,7 +56,6 @@ for matchID in  all_matchlist:
         champions_list.append(n['championName'])
 #print(f"Champions from match history:",champions_list)
         
-
 
 
 # All champions
@@ -79,7 +70,6 @@ Mages=[x for x in current_champ_list if "Mage" in current_champ_list[x]['tags']]
 #print(f"Total mages:",len(Mages))
 
 
-
 #Filtering champion mages
 played_mages=[]
 for champions in champions_list:
@@ -88,8 +78,6 @@ for champions in champions_list:
     else:
         pass
 #print(f"Mages in Games:",played_mages)
-
-
 
 
 #Frequency of mages played
