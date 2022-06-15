@@ -3,11 +3,14 @@ NA and EUW are used as examples in code.
 
 This work uses Riot-Watcher (https://github.com/pseudonym117/Riot-Watcher) as its API wrapper. 
 
+
+
 Data used:
 
 -Top 12 ranked solo players from NA and EUW
 
 -Any mage champions that appeared in each players' last 5 games ( a total of 60 games from each region)
+
 
 
 Issues:
@@ -16,6 +19,7 @@ Issues:
 -Due to API limitations, the sample size of the data is small hence results may be highly variable and biased.
 
 -As data were only retreived from high ELO matches, the data(selected champions) is skewed.
+
 
 
 Instructions:
