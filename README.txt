@@ -4,7 +4,7 @@ NA and EUW are used as examples in code.
 Due to API limitations, the sample size of the data is small hence results may be bias.
 Data used:
 -Top 12 ranked solo players from NA and EUW
--All mage champions that appeared in each players' last 5 games
+-Any mage champions that appeared in each players' last 5 games
 
 Please enter your Riot Development API Key before running code. 
 https://developer.riotgames.com/
