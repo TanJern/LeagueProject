@@ -1,6 +1,6 @@
 Purpose of project is to compare the mage champions used by NA and EUW players.
 
-Due to API limitations, sample size of the data is small hence results may be bias.
+Due to API limitations, the sample size of the data is small hence results may be bias.
 Data used:
 -Top 12 ranked solo players from NA and EUW
 -All mage champions that appeared in each players' last 5 games.
