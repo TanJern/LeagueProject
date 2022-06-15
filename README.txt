@@ -7,4 +7,4 @@ Data used:
 
 Please enter your Riot Development API Key before running code. 
 my_region,player_region,and player_routing can be changed to compare data of other regions
-num_matches_data=5 can be edited to change the number of each player's past game
+num_matches_data=5 can be edited to change the number of each players' past game
