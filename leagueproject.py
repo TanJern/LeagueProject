@@ -26,7 +26,6 @@ champions_version2 = versions['n']['champion']
 # All champions
 current_champ_list = lol_watcher.data_dragon.champions(champions_version)["data"]
 current_champ_list2 = lol_watcher.data_dragon.champions(champions_version2)["data"]
-#print(current_champ_list['Ahri']['tags']) Finding info on specific champion
 
 
 #NA PLAYERS INFO
