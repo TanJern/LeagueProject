@@ -11,3 +11,4 @@ https://developer.riotgames.com/
 
 my_region,player_region,and player_routing can be changed to compare data of other regions.
 num_matches_data=5 can be edited to change the number of each players' past game.
+Keyword "Mage" in get_Mage() and get_Mage(2) can be swapped to view other classes such as "Tank" or "Assassin".
