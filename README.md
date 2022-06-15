@@ -3,7 +3,7 @@ NA and EUW are used as examples in code.
 
 This work uses Riot-Watcher (https://github.com/pseudonym117/Riot-Watcher) as its API wrapper. 
 
-
+![Screenshot](example.png)
 
 Data used:<br />
 -Top 12 ranked solo players from NA and EUW.<br />
@@ -22,4 +22,4 @@ Instructions:<br />
 -num_matches_data=5 can be edited to change the number of each players' past game.<br />
 -Keyword "Mage" in get_Mage() and get_Mage2() can be swapped to "Tank", "Assassin" or other classes to view different comparisons.<br />
 
-![Screenshot](example.png)
+
