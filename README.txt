@@ -1,4 +1,5 @@
-Purpose of project is to compare the mage champions used by NA and EUW players.
+Purpose of project is to compare the mage champions used by players in two different regions.
+NA and EUW are used as examples in code.
 
 Due to API limitations, the sample size of the data is small hence results may be bias.
 Data used:
