@@ -12,7 +12,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 
-lol_watcher = LolWatcher('RGAPI-dd9041d0-1401-4977-821b-76d4f7adfcd3')
+lol_watcher = LolWatcher('ENTER API KEY')
 
 # First we get the latest version of the game from data dragon
 my_region = 'na1'
